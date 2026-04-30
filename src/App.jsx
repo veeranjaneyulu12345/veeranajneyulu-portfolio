@@ -20,6 +20,7 @@ import movieRecommenderImg from './assets/movie_recommender.png';
 import diabetesPredictionImg from './assets/diabetes_prediction.png';
 import vlsiSimulationImg from './assets/vlsi_simulation.png';
 import profileImg from './assets/veeranajneyulu.png.jpeg';
+import cloudPricingImg from './assets/cloud_pricing.png';
 
 const resumeUrl =
   "https://drive.google.com/file/d/1bhu8eD36k1Mi9JkGoY7m7gZDnvToy_-B/view?usp=drivesdk";
@@ -182,7 +183,7 @@ export default function App() {
             transition={{ delay: 0.1 }}
             className="text-xl md:text-2xl text-slate-600 dark:text-slate-400 max-w-2xl leading-relaxed"
           >
-            Cloud Solutions Architect | DevOps | Software Development
+            Cloud Computing | DevOps | Software Development
           </motion.p>
 
           <motion.div
@@ -278,20 +279,20 @@ export default function App() {
             {[
               {
                 company: "Larsen & Toubro Vyoma",
-                role: "Cloud Solutions Architect",
+                role: "Graduate Engineer Trainee (Software Development and DevOps)",
                 date: "Present",
-                desc: "Working on the CMP (Cloud Management Platform) portal development.",
+                desc: "Working on the CMP (Cloud Management Platform) portal development and developed cloud pricing calculator",
               },
               {
                 company: "IIT Madras",
                 role: "Organic Semiconductor Fabrication Intern",
-                date: "2023",
+                date: "2024",
                 desc: "Worked on Organic Thin-Film Transistors and circuit simulation.",
               },
               {
                 company: "Null Class",
                 role: "Machine Learning Developer Intern",
-                date: "2022",
+                date: "2023",
                 desc: "Developed an Automatic Age and Gender Detection model from visual data.",
               },
               {
@@ -326,6 +327,13 @@ export default function App() {
           <h3 className="text-3xl font-bold mb-12 text-center">Selected Projects</h3>
           <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8 max-w-5xl mx-auto">
             {[
+              {
+                title: "Cloud Pricing Calculator",
+                tech: "React, Cloud, L&T Vyoma",
+                desc: "Developed a comprehensive portal for estimating cloud infrastructure and service costs at Larsen & Toubro Vyoma.",
+                image: cloudPricingImg,
+                link: "https://costcalculator.larsentoubrovyoma.com/",
+              },
               {
                 title: "House Price Prediction",
                 tech: "Decision Tree, Python",
