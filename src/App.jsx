@@ -222,7 +222,7 @@ export default function App() {
               <motion.h2 variants={itemVariants} className="text-3xl font-bold mb-6">About Me</motion.h2>
               <motion.div variants={itemVariants} className="space-y-4 text-slate-600 dark:text-slate-400 leading-relaxed text-lg">
                 <p>
-                  I’m a Cloud Solutions Architect at <strong className="text-slate-900 dark:text-white">Larsen & Toubro Vyoma</strong>,
+                  I’m a Graduate Engineer Trainee focussed on Cloud computing, Software Development and DevOps at <strong className="text-slate-900 dark:text-white">Larsen & Toubro Vyoma</strong>,
                   specializing in CMP (Cloud Management Platform) portal development.
                 </p>
                 <p>
